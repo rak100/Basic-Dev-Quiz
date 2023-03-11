@@ -12,18 +12,18 @@
 // THEN I can save my initials and my score
 
 // DOCUMENT SELECTORS
-let startBtn = document.querySelector("#start-button");
-let timerEl = document.querySelector("#timer");
-let mainEl = document.querySelector("#main");
-let homeLi = document.querySelector("#home-link");
-let highscoreLi = document.querySelector("#highscore-link");
+var startBtn = document.querySelector("#start-button");
+var timerEl = document.querySelector("#timer");
+var mainEl = document.querySelector("#main");
+var homeLi = document.querySelector("#home-link");
+var highscoreLi = document.querySelector("#highscore-link");
 
 // GLOBAL VARIABLES
-let timerInterval;
-let secondsLeft;
-let quizSelection;
-let quizQuestions;
-let quizAnswers;
+var timerInterval;
+var secondsLeft;
+var quizSelection;
+var quizQuestions;
+var quizAnswers;
 
 // HTML QUIZ
 const htmlQuestions = [
